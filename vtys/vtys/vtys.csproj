@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>vtys</RootNamespace>
+    <AssemblyName>vtys</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aylikprimlisteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="aylikprimlisteForm.Designer.cs">
+      <DependentUpon>aylikprimlisteForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="grupyoneticisiform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="grupyoneticisiform.Designer.cs">
+      <DependentUpon>grupyoneticisiform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="itirazlarimForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="itirazlarimForm.Designer.cs">
+      <DependentUpon>itirazlarimForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mustericagrilistesiFormcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mustericagrilistesiFormcs.Designer.cs">
+      <DependentUpon>mustericagrilistesiFormcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="musteritemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="musteritemForm.Designer.cs">
+      <DependentUpon>musteritemForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="loginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginForm.Designer.cs">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrnekDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrnekDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OrnekDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrnekDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RaporCagri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaporCagri.Designer.cs">
+      <DependentUpon>RaporCagri.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RaporlamaGridView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RaporlamaGridView.Designer.cs">
+      <DependentUpon>RaporlamaGridView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="takimlidForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="takimlidForm.Designer.cs">
+      <DependentUpon>takimlidForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yenicagriForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yenicagriForm.Designer.cs">
+      <DependentUpon>yenicagriForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="aylikprimlisteForm.resx">
+      <DependentUpon>aylikprimlisteForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="grupyoneticisiform.resx">
+      <DependentUpon>grupyoneticisiform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="itirazlarimForm.resx">
+      <DependentUpon>itirazlarimForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mustericagrilistesiFormcs.resx">
+      <DependentUpon>mustericagrilistesiFormcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="musteritemForm.resx">
+      <DependentUpon>musteritemForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginForm.resx">
+      <DependentUpon>loginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaporCagri.resx">
+      <DependentUpon>RaporCagri.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RaporlamaGridView.resx">
+      <DependentUpon>RaporlamaGridView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="takimlidForm.resx">
+      <DependentUpon>takimlidForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yenicagriForm.resx">
+      <DependentUpon>yenicagriForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OrnekDataSet.xsc">
+      <DependentUpon>OrnekDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrnekDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrnekDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrnekDataSet.xss">
+      <DependentUpon>OrnekDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OrnekDataSet1.xsc">
+      <DependentUpon>OrnekDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OrnekDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrnekDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OrnekDataSet1.xss">
+      <DependentUpon>OrnekDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-286-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-2-3-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-149-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\certificates-13-512 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password-137-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bluearkaplan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vtysaarkaplan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beyaz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\giris.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mavibeyaz.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
