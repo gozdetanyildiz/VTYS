@@ -72,7 +72,7 @@
             // DTPtarih
             // 
             this.DTPtarih.CalendarFont = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.DTPtarih.Location = new System.Drawing.Point(115, 100);
+            this.DTPtarih.Location = new System.Drawing.Point(115, 106);
             this.DTPtarih.Name = "DTPtarih";
             this.DTPtarih.Size = new System.Drawing.Size(129, 23);
             this.DTPtarih.TabIndex = 14;
@@ -81,7 +81,7 @@
             // 
             this.cmbgorusmekonusu.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbgorusmekonusu.FormattingEnabled = true;
-            this.cmbgorusmekonusu.Location = new System.Drawing.Point(115, 72);
+            this.cmbgorusmekonusu.Location = new System.Drawing.Point(115, 78);
             this.cmbgorusmekonusu.Name = "cmbgorusmekonusu";
             this.cmbgorusmekonusu.Size = new System.Drawing.Size(129, 22);
             this.cmbgorusmekonusu.TabIndex = 13;
@@ -90,7 +90,7 @@
             // 
             this.cmbgorusmedurumu.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.cmbgorusmedurumu.FormattingEnabled = true;
-            this.cmbgorusmedurumu.Location = new System.Drawing.Point(406, 93);
+            this.cmbgorusmedurumu.Location = new System.Drawing.Point(406, 102);
             this.cmbgorusmedurumu.Name = "cmbgorusmedurumu";
             this.cmbgorusmedurumu.Size = new System.Drawing.Size(129, 22);
             this.cmbgorusmedurumu.TabIndex = 12;
@@ -98,7 +98,7 @@
             // txtbitissaati
             // 
             this.txtbitissaati.Font = new System.Drawing.Font("Bahnschrift", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtbitissaati.Location = new System.Drawing.Point(406, 68);
+            this.txtbitissaati.Location = new System.Drawing.Point(406, 74);
             this.txtbitissaati.Name = "txtbitissaati";
             this.txtbitissaati.Size = new System.Drawing.Size(129, 22);
             this.txtbitissaati.TabIndex = 2;
@@ -107,7 +107,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(271, 101);
+            this.label6.Location = new System.Drawing.Point(271, 108);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(103, 14);
             this.label6.TabIndex = 11;
@@ -125,7 +125,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(271, 75);
+            this.label5.Location = new System.Drawing.Point(271, 77);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(112, 14);
             this.label5.TabIndex = 10;
@@ -153,7 +153,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(9, 102);
+            this.label3.Location = new System.Drawing.Point(9, 108);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(89, 14);
             this.label3.TabIndex = 8;
@@ -163,7 +163,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(9, 76);
+            this.label2.Location = new System.Drawing.Point(9, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(101, 14);
             this.label2.TabIndex = 7;
@@ -175,9 +175,9 @@
             this.label1.Font = new System.Drawing.Font("Bahnschrift Light", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(9, 48);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 14);
+            this.label1.Size = new System.Drawing.Size(64, 14);
             this.label1.TabIndex = 6;
-            this.label1.Text = "Müşteri Ad-Soyad";
+            this.label1.Text = "Müşteri Ad";
             // 
             // groupBox2
             // 

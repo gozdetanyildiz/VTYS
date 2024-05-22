@@ -31,7 +31,6 @@
             this.btnmustericagriliste = new System.Windows.Forms.Button();
             this.btnaylikprimliste = new System.Windows.Forms.Button();
             this.btnitirazlarim = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // btnmustericagriliste
@@ -76,15 +75,6 @@
             this.btnitirazlarim.UseVisualStyleBackColor = false;
             this.btnitirazlarim.Click += new System.EventHandler(this.btnitirazlarim_Click);
             // 
-            // listBox1
-            // 
-            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(94, 148);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(206, 91);
-            this.listBox1.TabIndex = 3;
-            // 
             // musteritemForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,7 +82,6 @@
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::vtys.Properties.Resources.indir__1_;
             this.ClientSize = new System.Drawing.Size(401, 600);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnitirazlarim);
             this.Controls.Add(this.btnaylikprimliste);
             this.Controls.Add(this.btnmustericagriliste);
@@ -109,6 +98,5 @@
         private System.Windows.Forms.Button btnmustericagriliste;
         private System.Windows.Forms.Button btnaylikprimliste;
         private System.Windows.Forms.Button btnitirazlarim;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }

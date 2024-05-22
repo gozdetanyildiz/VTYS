@@ -33,30 +33,50 @@ namespace vtys
             con = new SqlConnection("Data Source=DESKTOP-8D4PG33\\SQLEXPRESS;Initial Catalog=Ornek;Integrated Security=True"); //Data Source=DESKTOP-8D4PG33\\SQLEXPRESS;Initial Catalog=Ornek;Integrated Security=True"
             com = new SqlCommand(); 
             con.Open();
-            com.Connection = con;
-            com.CommandText = "Select*From Kullanici_Bilgi where kullanici_adi='"+user+"'And sifre='"+password+"'";
+            /*com.Connection = con;
+            com.CommandText = "SELECT * FROM SistemKullanicilari WHERE kullanici_adi=@user AND sifre=@password";
+            com.Parameters.AddWithValue("@user", user);
+            com.Parameters.AddWithValue("@password", password);
             dr = com.ExecuteReader();
-            if (dr.Read())
+            */
+
+            DataSet ds = new DataSet();
+            string sql2 = "select * from SistemKullanicilari where kullanici_adi = '" + user + "'and sifre = '" + password + "'";
+            SqlDataAdapter da = new SqlDataAdapter(sql2, con);
+            ds = new DataSet();
+            da.Fill(ds, "KULLANICIDENEME");
+
+            if (ds.Tables[0].Rows.Count > 0)
             {
                 MessageBox.Show("Tebrikler Giriş Başarılı");
-                if (selectedOption == "Müşteri Temsilcisi")
+                string kulad = ds.Tables[0].Rows[0]["kullanici_adi"].ToString();
+                string kulid = ds.Tables[0].Rows[0]["kullanici_id"].ToString();
+
+
+                Classes.KullanıcıBilgileri.KullaniciAd =kulad;
+                Classes.KullanıcıBilgileri.KullaniciID = Convert.ToInt32(kulid);
+
+                switch (selectedOption)
                 {
-                    musteritemForm form1 = new musteritemForm(); // Yetki 1'e göre formu oluştur
-                    form1.Show();
-                }
-                else if (selectedOption == "Takım Lideri")
-                {
-                    takimlidForm form2 = new takimlidForm(); // Yetki 2'ye göre formu oluştur
-                    form2.Show();
-                }
-                else if (selectedOption == "Grup Yöneticisi")
-                {
-                    grupyoneticisiform form3 = new grupyoneticisiform(); // Yetki 3'e göre formu oluştur
-                    form3.Show();
+                    case "Müşteri Temsilcisi":
+                        musteritemForm form1 = new musteritemForm(); // Asistan için formu oluştur
+                        form1.Show();
+                        break;
+                    case "Takım Lideri":
+                        takimlidForm form2 = new takimlidForm(); // Takım lideri için formu oluştur
+                        form2.Show();
+                        break;
+                    case "Grup Yöneticisi":
+                        grupyoneticisiform form3 = new grupyoneticisiform(); // Grup yöneticisi için formu oluştur
+                        form3.Show();
+                        break;
+                    default:
+                        MessageBox.Show("Geçersiz kullanıcı rolü!");
+                        break;
                 }
             }
             else
-            { 
+            {
                 MessageBox.Show("Hatalı Kullanıcı Adı veya Şifre");
             }
             con.Close();

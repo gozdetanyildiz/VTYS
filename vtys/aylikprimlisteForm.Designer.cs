@@ -73,6 +73,7 @@
             this.Controls.Add(this.groupBox1);
             this.Name = "aylikprimlisteForm";
             this.Text = "aylikprimlisteForm";
+            this.Load += new System.EventHandler(this.aylikprimlisteForm_Load);
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);

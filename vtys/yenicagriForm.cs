@@ -24,19 +24,19 @@ namespace vtys
                 {
                     con.Open();
 
-                    SqlCommand com = new SqlCommand("SELECT * FROM Gorusme_Konusu", con);
+                    SqlCommand com = new SqlCommand("SELECT * FROM Konu", con);
                     SqlDataReader dr = com.ExecuteReader();
                     while (dr.Read())
                     {
-                        cmbgorusmekonusu.Items.Add(dr["gorusmekonusu"]);
+                        cmbgorusmekonusu.Items.Add(dr["konu_adi"]);
                     }
                     dr.Close();
 
-                    SqlCommand com2 = new SqlCommand("SELECT * FROM Gorusme_Durumu", con);
+                    SqlCommand com2 = new SqlCommand("SELECT * FROM Durum", con);
                     SqlDataReader dr2 = com2.ExecuteReader();
                     while (dr2.Read())
                     {
-                        cmbgorusmedurumu.Items.Add(dr2["gorusme_durumu"]);
+                        cmbgorusmedurumu.Items.Add(dr2["durum_Adi"]);
                     }
                     dr2.Close();
                 }
@@ -59,13 +59,18 @@ namespace vtys
                 DateTime gorusmeTarihi = new DateTime(year, month, day);
                 string veriBaslamaSaati = txtbaşlamasaati.Text;
                 string veriBitisSaati = txtbitissaati.Text;
+                //TimeSpan baslamaSaat = TimeSpan.ParseExact(veriBaslamaSaati, "HH:mm", CultureInfo.InvariantCulture);
+                //TimeSpan bitisSaat = TimeSpan.ParseExact(veriBitisSaati, "HH:mm", CultureInfo.InvariantCulture);
+                // Başlangıç ve bitiş saatleri arasındaki farkı bulma
+                //TimeSpan konusmaSuresi = bitisSaat - baslamaSaat;
+                // Konuşma süresini dakika cinsine dönüştürme
+                //int konusmaSureDakika = (int)konusmaSuresi.TotalMinutes;
                 string veriGD = cmbgorusmedurumu.SelectedItem?.ToString();
                 /*string veriADSOYAD = txtadsoyad.Text;
                 string veriBaslamaSaati = txtbaşlamasaati.Text;
                 string veriBitisSaati = txtbitissaati.Text;
                 string veriGK = cmbgorusmekonusu.SelectedItem?.ToString();
                 string veriGD = cmbgorusmedurumu.SelectedItem?.ToString();
-
 
                 DateTime veriTarih = DTPtarih.Value.Date;
 
@@ -74,10 +79,12 @@ namespace vtys
                 //veriTarih = veriTarih.Add(baslamaSaat);
                 DateTime bitisTarih = veriTarih.Add(bitisSaat - baslamaSaat);
                 */
+
+                int islemiyapan = Classes.KullanıcıBilgileri.KullaniciID;
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    string query = "INSERT INTO Musteri_Bilgileri (MusAdSoyad, GorusmeKonusu, GorusmeTarihi, GorusmeBaslama, GorusmeBitis, GorusmeDurumu) VALUES (@MusAdSoyad, @Gorusmekonusu, @GorusmeTarihi, @GorusmeBaslama, @GorusmeBitis, @GorusmeDurumu)";
+                    string query = "INSERT INTO Musteri_Bilgileri (MusAdSoyad, GorusmeKonusu, GorusmeTarihi, GorusmeBaslama, GorusmeBitis, GorusmeDurumu,islemiyapan) VALUES (@MusAdSoyad, @Gorusmekonusu, @GorusmeTarihi, @GorusmeBaslama, @GorusmeBitis, @GorusmeDurumu, @islemiyapan)";
                     using (SqlCommand command = new SqlCommand(query, connection))
                     {
                         command.Parameters.AddWithValue("@MusAdSoyad", musAdSoyad);
@@ -86,6 +93,7 @@ namespace vtys
                         command.Parameters.AddWithValue("@GorusmeBaslama", veriBaslamaSaati);
                         command.Parameters.AddWithValue("@GorusmeBitis", veriBitisSaati);
                         command.Parameters.AddWithValue("@GorusmeDurumu", veriGD);
+                        command.Parameters.AddWithValue("@islemiyapan", islemiyapan);
 
                         int result = command.ExecuteNonQuery();
                         if (result > 0)

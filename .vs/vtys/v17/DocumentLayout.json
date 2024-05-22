@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\Gozde\\Desktop\\VTYS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|c:\\users\\gozde\\desktop\\vtys\\vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|c:\\users\\gozde\\desktop\\vtys\\vtys\\asistanbilgiforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\asistanbilgiforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,6 +13,34 @@
     {
       "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\yenicagriform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\musteritemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\musteritemform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\aylikprimlisteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\aylikprimlisteform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\asistanbilgiforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\asistanbilgiforms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C57782F-4AE4-4ADE-89EF-8B75BBF3142F}|vtys\\vtys.csproj|solutionrelative:vtys\\mustericagrilistesiformcs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +50,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "yenicagriForm.cs",
-              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriForm.cs",
-              "RelativeDocumentMoniker": "vtys\\yenicagriForm.cs",
-              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriForm.cs",
-              "RelativeToolTip": "vtys\\yenicagriForm.cs",
-              "ViewState": "AQIAAEEAAAAAAAAAAAAwwFIAAABTAAAA",
+              "DocumentIndex": 0,
+              "Title": "AsistanBilgiForms.cs",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\AsistanBilgiForms.cs",
+              "RelativeDocumentMoniker": "VTYS\\AsistanBilgiForms.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\AsistanBilgiForms.cs",
+              "RelativeToolTip": "VTYS\\AsistanBilgiForms.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAqwDYAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:51:49.209Z"
+              "WhenOpened": "2024-05-22T09:32:59.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "aylikprimlisteForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\aylikprimlisteForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\aylikprimlisteForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\aylikprimlisteForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\aylikprimlisteForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T11:34:54.227Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "loginForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\loginForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\loginForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\loginForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\loginForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:39:44.088Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "loginForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\loginForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\loginForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\loginForm.cs",
+              "RelativeToolTip": "VTYS\\loginForm.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowFEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T09:40:31.669Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "yenicagriForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriForm.cs",
-              "RelativeDocumentMoniker": "vtys\\yenicagriForm.cs",
-              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\yenicagriForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "vtys\\yenicagriForm.cs [Tasar\u0131m]",
+              "Title": "musteritemForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\musteritemForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\musteritemForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\musteritemForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\musteritemForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T09:08:11.887Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mustericagrilistesiFormcs.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiFormcs.cs",
-              "RelativeDocumentMoniker": "vtys\\mustericagrilistesiFormcs.cs",
-              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiFormcs.cs [Tasar\u0131m]",
-              "RelativeToolTip": "vtys\\mustericagrilistesiFormcs.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T09:48:46.373Z",
+              "WhenOpened": "2024-05-22T09:10:32.331Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "yenicagriForm.cs",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\yenicagriForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\yenicagriForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\yenicagriForm.cs",
+              "RelativeToolTip": "VTYS\\yenicagriForm.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAwwHAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T14:51:49.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "yenicagriForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\yenicagriForm.cs",
+              "RelativeDocumentMoniker": "VTYS\\yenicagriForm.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\yenicagriForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\yenicagriForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T09:08:11.887Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AsistanBilgiForms.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\AsistanBilgiForms.cs",
+              "RelativeDocumentMoniker": "VTYS\\AsistanBilgiForms.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\AsistanBilgiForms.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\AsistanBilgiForms.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-22T09:27:18.843Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "mustericagrilistesiFormcs.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\mustericagrilistesiFormcs.cs",
+              "RelativeDocumentMoniker": "VTYS\\mustericagrilistesiFormcs.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\mustericagrilistesiFormcs.cs [Tasar\u0131m]",
+              "RelativeToolTip": "VTYS\\mustericagrilistesiFormcs.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T09:48:46.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "mustericagrilistesiFormcs.cs",
-              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiFormcs.cs",
-              "RelativeDocumentMoniker": "vtys\\mustericagrilistesiFormcs.cs",
-              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\vtys\\mustericagrilistesiFormcs.cs",
-              "RelativeToolTip": "vtys\\mustericagrilistesiFormcs.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAF0AAAAYAAAA",
+              "DocumentMoniker": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\mustericagrilistesiFormcs.cs",
+              "RelativeDocumentMoniker": "VTYS\\mustericagrilistesiFormcs.cs",
+              "ToolTip": "C:\\Users\\Gozde\\Desktop\\VTYS\\VTYS\\mustericagrilistesiFormcs.cs",
+              "RelativeToolTip": "VTYS\\mustericagrilistesiFormcs.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwF0AAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T10:46:53.019Z"
             }

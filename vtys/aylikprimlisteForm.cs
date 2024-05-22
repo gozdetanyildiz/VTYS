@@ -16,5 +16,10 @@ namespace vtys
         {
             InitializeComponent();
         }
+
+        private void aylikprimlisteForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
